@@ -78,7 +78,7 @@ $(window).on('load', function() {
     var chapterContainerMargin = 70;
 
     document.title = getSetting('_mapTitle');
-    $('#title').append('<h3>' + getSetting('_mapTitle') + '</h3>');
+    $('#title').append('<img src="media/skikarlov.png" alt="logo">');
     $('#title').append('<small>' + getSetting('_mapSubtitle') + '</small>');
 
     // Load tiles
