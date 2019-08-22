@@ -117,7 +117,7 @@ $(window).on('load', function() {
             icon: L.ExtraMarkers.icon({
               icon: 'fas fa-skiing',
               number: ++chapterCount,
-              markerColor: 'DeepSkyBlue'
+              markerColor: '#00bfff'
             })
           }
         ));
@@ -127,7 +127,7 @@ $(window).on('load', function() {
       }
 
       // Add chapter container
-      var container = $('<div></div>', {
+      var container = $('<div>HALOOO</div>', {
         id: 'container' + i,
         class: 'chapter-container'
       });
