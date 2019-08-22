@@ -136,7 +136,9 @@ $(window).on('load', function() {
       var mediaContainer = null;
 
       // Add media source
-      var source = $('<a>', {
+            var source = $('<a>', {
+        text: c['Media Credit'],
+        text: c['Media Credit Link'],
         target: "_blank",
         class: 'source'
       });
