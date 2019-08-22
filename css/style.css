@@ -16,13 +16,15 @@ body {
 
 #narration {
   position: absolute;
-  top: 203px;
-  width: 100vw;
-  height: calc(100vh - 203px);
-  z-index: 80;
+  width: 35vw;
+   min-width: 300px;
+  right: 0px;
+  height: 100vh;
+  overflow: auto;
+  z-index: 99;
 }
 
-#contents {
+#contents { 
   padding: 0;
   width: 100%;
   margin-top: 0; /*Adjust if Title header needs more space */
