@@ -114,9 +114,8 @@ $(window).on('load', function() {
         markers.push(
           L.marker([lat, lon], {
             icon: L.ExtraMarkers.icon({
-              icon: 'fa-number',
-              number: ++chapterCount,
-              markerColor: 'blue'
+              icon: 'fas fa-skiing',
+              markerColor: '#ff66cc'
             })
           }
         ));
