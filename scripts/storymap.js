@@ -71,7 +71,6 @@ $(window).on('load', function() {
     narrativeWidth = parseInt(getSetting('_narrativeWidth'));
     if (narrativeWidth > 0 && narrativeWidth < 100) {
       var mapWidth = 100 - narrativeWidth;
-
       $('#narration, #title').css('width', narrativeWidth + 'vw');
       $('#map').css('width', mapWidth + 'vw');
     } */
@@ -115,9 +114,9 @@ $(window).on('load', function() {
         markers.push(
           L.marker([lat, lon], {
             icon: L.ExtraMarkers.icon({
-              icon: 'fas fa-skiing',
+              icon: 'fa-number',
               number: ++chapterCount,
-              markerColor: '#00bfff'
+              markerColor: 'blue'
             })
           }
         ));
@@ -127,7 +126,7 @@ $(window).on('load', function() {
       }
 
       // Add chapter container
-      var container = $('<div>HALOOO</div>', {
+      var container = $('<div></div>', {
         id: 'container' + i,
         class: 'chapter-container'
       });
