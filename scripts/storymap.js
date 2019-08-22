@@ -137,8 +137,6 @@ $(window).on('load', function() {
 
       // Add media source
       var source = $('<a>', {
-        text: c['Media Credit'],
-        href: c['Media Credit Link'],
         target: "_blank",
         class: 'source'
       });
